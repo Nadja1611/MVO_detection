@@ -20,7 +20,7 @@ from augmentation import *
 
 
 import util.misc as misc
-from engine_downstream import evaluate, train_one_epoch
+from engine_training import evaluate, train_one_epoch
 from util.losses import build_loss_fn
 from util.misc import NativeScalerWithGradNormCount as NativeScaler
 from util.optimizer import get_optimizer_from_config

@@ -20,7 +20,7 @@ import torch.nn as nn
 from augmentation import *
 
 import util.misc as misc
-from engine_resnet import evaluate, train_one_epoch, plot_confusion_for_class
+from engine_training import evaluate, train_one_epoch, plot_confusion_for_class
 from util.losses import build_loss_fn
 from util.misc import NativeScalerWithGradNormCount as NativeScaler
 from util.optimizer import get_optimizer_from_config
